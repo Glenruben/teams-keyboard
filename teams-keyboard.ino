@@ -1,30 +1,15 @@
 /*
+  Dedicated keyboard for Teams and similar chat applications. 
 
-  Melody
+  Must be run on Arduino Nano, Leonardo or similar boards that can emulate USB HID devices
 
-  Plays a melody
-
-  circuit:
-
-  - 8 ohm speaker on digital pin 8
-
-  created 21 Jan 2010
-
-  modified 30 Aug 2011
-
-  by Tom Igoe
-
-  This example code is in the public domain.
-
-  http://www.arduino.cc/en/Tutorial/Tone
-
+  Mostly cobbled together with gaffers tape and chicken wire. 
 */
 
 #include "pitches.h"
 
 // notes in the melody:
 int melody[] = {
-
   NOTE_E4, NOTE_E4, NOTE_E4, NOTE_E4, NOTE_C4, NOTE_D4, NOTE_E4, 0, NOTE_D4, NOTE_E4,
 };
 
